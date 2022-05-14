@@ -1,0 +1,73 @@
+/*colores de mi html*/
+.colorFondo {
+    background-color: #bfeb60;
+}
+.pruebaCascada{
+    font-family: cursive;
+    color:rgb(33, 33, 203);
+}
+#importancia{
+    color:coral !important;
+}
+/*fuentes de html
+------------------------------------------------------------------*/
+@font-face {
+    font-family: "Mi fuente";
+    src: url("./fonts/Macondo/Macondo-Regular.ttf");
+}
+.fuente {
+    font-family: "Mi fuente", "Lucida Handwriting", cursive;
+}
+@font-face {
+    font-family: "Fuente dos";
+    src: url("./fonts/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf");
+}
+.fuente2{
+    font-family: "Fuente dos", "Courier", cursive;
+    color: rgba(76, 0, 255, 0.55);
+}
+/* modelo de caja 
+---------------------------------------------------------------------*/
+#caja1{ 
+    width: 250px;
+    border:10px inset rgb(59, 224, 233);
+    position: absolute;
+    top: 0%;
+    left:20%;
+}
+#desborde{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(123, 39, 220, 0.626);
+    overflow-y: scroll;
+}
+#titulo{
+    width: 500px;
+    height: 305px;
+    background-color: rgba(45, 213, 255, 0.854);
+    position: absolute;
+    top: -4%;
+    left: 0%;
+}
+#texto{
+    width: 100%;
+    height: 200%;
+    background-color: rgba(0, 255, 191, 0.616);
+    position: absolute;
+    top:50%;
+    left:0%;
+}
+#centrar{
+    position:absolute;
+    width: 200px;
+    height: 100px;
+    top: 40%;
+    left:10%;
+}
+#gustos{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top:20%;
+    left: 50%;
+}
